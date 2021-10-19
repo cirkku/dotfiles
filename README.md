@@ -22,7 +22,7 @@ public repository for my dotfiles, at least most of them.
 2. Make sure your old configuration files are either moved from their original locations or completely deleted.
 3. `cd` into the directory you cloned the repository into.
 4. My dotfiles are for my system so you should make sure that the configurations have correct paths for your system, for example scripts and configs managing mpd assume your music is located at `~/Mount/3TBHDD/Music`.
-5. Run `stow -S *` to symlink/install my dots.
+5. Run `stow -S */` to symlink/install my dots.
 
 ## Image
 <p align="center">
