@@ -1,0 +1,13 @@
+[Unit]
+Description=Change wallpaper at regular intervals
+
+[Service]
+Type=oneshot
+ExecStart=polybar -c /home/tuukka/.config/polybar/config cirno
+Environment=DISPLAY=:0.0
+
+[Install]
+WantedBy=X.target
+
+
+

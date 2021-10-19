@@ -1,0 +1,52 @@
+sw_volume: 100
+audio_device_state:1:My Pulse Output
+audio_device_state:1:FIFO
+state: play
+current: 31
+time: 66.341000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Black Magick SS/2013 - Panzerwitch/01 - Darklord.mp3
+1:Black Magick SS/2013 - Panzerwitch/02 - Shall Prevail.mp3
+2:Black Magick SS/2013 - Panzerwitch/03 - Panzerwitch.mp3
+3:Black Magick SS/2015 - The Black Abyss/01 - The Black Abyss.mp3
+4:Black Magick SS/2015 - The Black Abyss/02 - Step Into The Night.mp3
+5:Black Magick SS/2015 - The Black Abyss/03 - Crystal Eyes.mp3
+6:Black Magick SS/2015 - The Black Abyss/04 - Hidden In Plain Sight.mp3
+7:Black Magick SS/2015 - The Black Abyss/05 - Black Magick Army.mp3
+8:Black Magick SS/2015 - The Black Abyss/06 - Wisdom Tree.mp3
+9:Black Magick SS/2015 - The Black Abyss/07 - War Of The Sorceror.mp3
+10:Black Magick SS/2015 - The Black Abyss/08 - Dark Lord.mp3
+11:Black Magick SS/2015 - The Black Abyss/09 - Shall Prevail.mp3
+12:Black Magick SS/2015 - The Black Abyss/10 - Panzerwitch.mp3
+13:Black Magick SS/2015 - The Black Abyss/11 - Symbols Of Great Power.mp3
+14:Black Magick SS/2015 - The Black Abyss/12 - The Fire (Burns Forever).mp3
+15:Black Magick SS/2015 - The Black Abyss/13 - In The Circle.mp3
+16:Black Magick SS/2015 - The Black Abyss/14 - Gospel.mp3
+17:Black Magick SS/2015 - The Owls of Winter, Talisman [EP]/01 - The Owls of Winter.mp3
+18:Black Magick SS/2015 - The Owls of Winter, Talisman [EP]/02 - Talisman.mp3
+19:Black Magick SS/2017 - Kaleidoscope Dreams/01 - Kaleidoscope Dreams.mp3
+20:Black Magick SS/2017 - Kaleidoscope Dreams/02 - Crusader.mp3
+21:Black Magick SS/2017 - Kaleidoscope Dreams/03 - Taget.mp3
+22:Black Magick SS/2017 - Kaleidoscope Dreams/04 - The Power.mp3
+23:Black Magick SS/2017 - Kaleidoscope Dreams/05 - Follow You.mp3
+24:Black Magick SS/2017 - Kaleidoscope Dreams/06 - Eclipse.mp3
+25:Black Magick SS/2018 - Spectral Ecstasy/01 - Black Hand.mp3
+26:Black Magick SS/2018 - Spectral Ecstasy/02 - Spectral Ecstasy.mp3
+27:Black Magick SS/2018 - Spectral Ecstasy/03 - My Love.mp3
+28:Black Magick SS/2018 - Spectral Ecstasy/04 - Fallen Tale.mp3
+29:Black Magick SS/2018 - Spectral Ecstasy/05 - The Oath.mp3
+30:Black Magick SS/2018 - Spectral Ecstasy/06 - Hymn Of Pride.mp3
+31:Black Magick SS/2020 - Rainbow Nights/01 - Endless Hallucinations.mp3
+32:Black Magick SS/2020 - Rainbow Nights/02 - Rainbow Nights.mp3
+33:Black Magick SS/2020 - Rainbow Nights/03 - Get Out.mp3
+34:Black Magick SS/2020 - Rainbow Nights/04 - Kali.mp3
+35:Black Magick SS/2020 - Rainbow Nights/05 - Mothers Lullaby.mp3
+36:Black Magick SS/2020 - Rainbow Nights/06 - The Truth.mp3
+playlist_end

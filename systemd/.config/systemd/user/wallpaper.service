@@ -1,0 +1,11 @@
+[Unit]
+Description=Change wallpaper at regular intervals
+
+[Service]
+Type=oneshot
+ExecStart=/home/tuukka/.config/scripts/wallpaper.sh
+Environment=DISPLAY=:0.0
+
+
+
+

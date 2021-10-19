@@ -1,0 +1,120 @@
+alt + Escape
+	pkill -USR1 -x sxhkd
+
+# quit/restart bspwm
+alt + shift + {q,r}
+	{sh ~/.config/scripts/dmenu/powermenu.sh,bspc wm -r}
+
+# close and kill
+alt + w
+	bspc node -c
+
+# alternate between the tiled and monocle layout
+alt + m
+	bspc desktop -l next
+
+# state
+alt + shift + {t,s,f}
+	bspc node -t {tiled,floating,fullscreen}
+
+# set the node flags
+alt + ctrl + {s,x,d,z}
+	bspc node -g {marked,locked,sticky,private}
+
+# FOCUS/SWAP
+
+# focus the node in the given direction
+alt + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+# focus the next/previous node in the current desktop
+alt + {_,shift + }n
+	bspc node -f {next,prev}.local
+
+# focus the next/previous desktop in the current monitor
+alt + {i,o}
+	bspc desktop -f {prev,next}.local
+
+# focus or send to the given desktop
+alt + {_,shift + }{1-9,0}
+        bspc {desktop -f,node -d} '^{1-9,10}'
+# PRESELECT
+# preselect the direction
+alt + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+# preselect the ratio
+alt + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+alt + ctrl + space
+	bspc node -p cancel
+
+# cancel the preselection for the focused desktop
+alt + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+# MOVE/RESIZE
+
+#increase window size
+super + shift + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# APPLICATION KEYBINDINGS (Super + Alt + Key)
+
+#hide windows
+alt + shift + i
+	sh ~/.config/scripts/hidewindow.sh
+
+#change wallpaper
+
+super + w
+	sh ~/.config/scripts/wallpaper.sh
+
+# terminal emulator
+alt + Return
+	alacritty
+
+# launch musikcube
+alt + r
+	alacritty -e ncmpcpp
+
+# launch browser
+ alt + b
+	librewolf
+
+# launch newsboat feed reeder
+ alt + n
+	alacritty -e newsboat
+
+# launch ranger
+alt + f
+	alacritty -e ranger
+
+# run program launcher
+alt + p
+	python ~/.config/scripts/dmenu/ultramenu.py -run
+
+#common programs
+alt + shift + p
+	bash ~/.config/scripts/dmenu/themechooser.sh
+
+#hipster terminal torrent program
+alt + t
+	alacritty -e tremc
+
+#screenshot
+@Print
+	maim -s | xclip -selection clipboard -t image/png
+
+#screenshot but cooler
+shift + @Print
+	maim | xclip -selection clipboard -t image/png
+# Change volume
+XF86Audio{Raise,Lower}Volume
+	pulseaudio-ctl {up,down} 2
+
+
+
+

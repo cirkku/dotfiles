@@ -1,0 +1,142 @@
+[theme]
+background = ${xrdb:background}
+foreground = ${xrdb:foreground}
+black = ${xrdb:color0}
+red = ${xrdb:color1}
+green = ${xrdb:color2}
+yellow = ${xrdb:color3}
+blue = ${xrdb:color4}
+magenta = ${xrdb:color5}
+cyan = ${xrdb:color6}
+white = ${xrdb:color7}
+
+
+
+[bar/cirno]
+width = 100% 
+height = 20
+fixed-center = true
+background = ${theme.background}
+foreground = ${theme.foreground}
+padding-right = 2
+module-margin-right = 1
+font-0 = "Terminus (TTF):size=12;2"
+font-1 = "Font Awesome 5 Free Regular:size=10;2"
+font-2 = "Font Awesome 5 Free Solid:size=10;2"
+font-3 = "Font Awesome 5 Brands Regular:size=10;2"
+font-4 = "DejaVu Sans Mono:size=30;2"
+modules-left =  bspwm space xwindow 
+modules-center = 
+modules-right = mpd space eth space  pulseaudio space  date
+border-size = 3
+border-color = ${theme.foreground}
+wm-restack = bspwm
+override-redirect = false
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+
+[bar/light]
+width = 100% 
+height = 20
+fixed-center = true
+background = ${light.background}
+foreground = ${light.foreground}
+padding-right = 2
+module-margin-right = 1
+font-0 = "UW Ttyp0:size=12;2"
+font-1 = "Font Awesome 5 Free Regular:size=10;2"
+font-2 = "Font Awesome 5 Free Solid:size=10;2"
+font-3 = "Font Awesome 5 Brands Regular:size=10;2"
+font-4 = "DejaVu Sans Mono:size=30;2"
+modules-left =  bspwm space xwindow 
+modules-center = 
+modules-right = mpd space eth space  pulseaudio space  date
+border-size = 3
+border-color = #a9b1d6
+wm-restack = bspwm
+override-redirect = false
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+
+[module/space]
+type = custom/text
+content = %{T5}|%{T-}
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:30:...% %{T5}|%{T-}
+
+[module/bspwm]
+type = internal/bspwm
+label-focused-foreground = ${theme.red}
+label-focused-background = ${theme.background}
+label-focused-underline= ${theme.red}
+label-focused-padding = 2
+label-occupied-foreground = ${theme.yellow}
+label-occupied-padding = 2
+label-urgent-background = ${theme.red}
+label-urgent-padding = 2
+label-empty-padding = 2
+
+[module/eth]
+type = internal/network
+interface = enp4s0
+interval = 3.0
+format-connected-underline = ${theme.foreground}
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${theme.foreground}
+label-connected = %local_ip%
+
+[module/date]
+type = internal/date
+interval = 5
+date =
+date-alt = " %Y-%m-%d"
+time = %H:%M
+time-alt = %H:%M:%S
+format-prefix = 
+format-prefix-foreground = ${theme.foreground}
+format-underline = #0a6cf5
+label = %date% %time%
+
+[module/pulseaudio]
+type = internal/pulseaudio
+format-volume =  <bar-volume> <label-volume>
+label-volume = %percentage%%
+label-volume-foreground = ${root.foreground}
+label-muted =  muted
+label-muted-foreground = ${theme.red}
+bar-volume-width = 10
+bar-volume-foreground-0 = ${theme.green}
+bar-volume-foreground-1 = ${theme.green}
+bar-volume-foreground-2 = ${theme.green}
+bar-volume-foreground-3 = ${theme.green}
+bar-volume-foreground-4 = ${theme.yellow}
+bar-volume-foreground-5 = ${theme.yellow}
+bar-volume-foreground-6 = ${theme.red}
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 0
+bar-volume-fill = |
+bar-volume-fill-font = 0
+bar-volume-empty = |
+bar-volume-empty-font = 0
+bar-volume-empty-foreground = #666
+
+
+[module/mpd]
+type = internal/mpd
+host = 127.0.0.1
+port = 6600
+label-offline = %{T5}|%{T-} Offline
+label-song = %{T5}|%{T-} playing: %artist% - %title%
+
+
+
+
+#[global/wm]
+#margin-top = 5 
+#margin-bottom = 5
+
