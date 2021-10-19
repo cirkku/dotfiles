@@ -1,4 +1,4 @@
-xrdb ~/.Xinitrc
+xrdb -merge ~/.Xinitrc
 systemctl --user start X.target &
 sxhkd &
 sh .fehbg &
