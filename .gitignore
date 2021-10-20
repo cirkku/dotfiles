@@ -2,3 +2,12 @@
 /git
 /VSCode
 mpd/.config/mpd/mpdstate
+/firefox
+newsboat/.newsboat/urls
+mpd/.config/mpd/mpd.id
+mpd/.config/mpd/mpd.log
+mpd/.config/mpd/mpdstate
+newsboat/.newsboat/cache.db
+newsboat/.newsboat/cache.db.lock
+transmission-daemon/.config/transmission-daemon/dht.dat
+

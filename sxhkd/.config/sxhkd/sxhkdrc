@@ -76,17 +76,13 @@ super + w
 alt + Return
 	alacritty
 
-# launch musikcube
+# launch music player
 alt + r
 	alacritty -e ncmpcpp
 
 # launch browser
  alt + b
-	librewolf
-
-# launch newsboat feed reeder
- alt + n
-	alacritty -e newsboat
+	firefox-bin
 
 # launch ranger
 alt + f
@@ -96,20 +92,16 @@ alt + f
 alt + p
 	python ~/.config/scripts/dmenu/ultramenu.py -run
 
-#common programs
-alt + shift + p
-	bash ~/.config/scripts/dmenu/themechooser.sh
-
-#hipster terminal torrent program
+#rss
 alt + t
-	alacritty -e tremc
-
-#screenshot
-@Print
-	maim -s | xclip -selection clipboard -t image/png
+	alacritty -e newsboat
 
 #screenshot but cooler
 shift + @Print
+	maim -s | xclip -selection clipboard -t image/png
+
+#screenshot
+@Print
 	maim | xclip -selection clipboard -t image/png
 # Change volume
 XF86Audio{Raise,Lower}Volume
