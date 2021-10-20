@@ -2,7 +2,8 @@
 public repository for my dotfiles, at least most of them.
 
 ## Depencies
-* Individual scripts such as [mpd notify](https://github.com/cirkku/mpd-notify) have individual depencies of their own
+* Individual scripts such as [mpd notify](https://github.com/cirkku/mpd-notify) have individual depencies of their own.
+* mpd uses yt-dlp instead of youtube-dl because of youtube-dl having abysmal speeds.
 * GNU Stow is recommended for managing the dotfiles.
 
 ## general info
