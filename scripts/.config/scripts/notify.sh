@@ -3,7 +3,7 @@
 # This should work, it has always worked for me, no guarantees though.
 # but please report mistakes to me :)
 
-music_dir="$HOME/Mount/3TBHDD/Music"
+music_dir="/mnt/sakuya/Music"
 #fallback_image= -- Optional fallback image, without it the notifaction will only display the playing song in case of album art not being found --
 
 main () {

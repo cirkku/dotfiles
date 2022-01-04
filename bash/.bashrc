@@ -28,4 +28,6 @@ alias update="doas emerge --sync"
 #autostart X if on TTY1 
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
   exec startx
-  fi
+fi
+
+alias luamake=/tmp/lua-language-server/3rd/luamake/luamake

@@ -1,16 +1,16 @@
 #!/bin/bash
 #
 
-chosen=$(echo -e "Cancel\nLogout\nShutdown\nReboot\nSuspend\nLock" | python $HOME/.config/scripts/dmenu/ultramenu.py -script)
+chosen=$(echo "Cancel\nLogout\nShutdown\nReboot\nSuspend\nLock" | dmenu)
 
 if [[ $chosen = "Logout" ]]; then
-	bspc quit && systemctl --user stop X.target
+	bspc quit
 elif [[ $chosen = "Shutdown" ]]; then
-	systemctl --user stop X.target && systemctl poweroff 
+	sudo poweroff 
 elif [[ $chosen = "Reboot" ]]; then
-	systemctl --user stop X.target && systemctl reboot  
+	sudo reboot  
 elif [[ $chosen = "Suspend" ]]; then
-	sleep 0.1 && i3lock-fancy-rapid 5 3 -u && sleep 0.1 && systemctl suspend
+	sleep 0.1 && i3lock-fancy 5 3 -u && sleep 0.1 && sudo zzz
 elif [[ $chosen = "Lock" ]]; then
-	sleep 0.1 && i3lock-fancy-rapid 5 3 -u
+	sleep 0.1 && i3lock-fancy 5 3 -u
 fi

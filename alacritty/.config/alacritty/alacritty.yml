@@ -91,22 +91,22 @@ window:
 # Font configuration
 font:
   normal:
-    family: UW Ttyp0
+    family: Ttyp0
     style: Regular
 
   bold:
-    family: UW Ttyp0
+    family: Ttyp0
     style: Bold
 
   italic:
-    family: UW Ttyp0
+    family: Ttyp0
     style: Italic
 
   bold_italic:
-    family: UW Ttyp0
+    family: Ttyp0
     style: Bold
 
-  size: 13.0
+  size: 11.0
 
 draw_bold_text_with_bright_colors: true
 
@@ -248,7 +248,7 @@ bell:
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
-  program: /bin/bash
+  program: /bin/zsh
   args:
     - --login
 

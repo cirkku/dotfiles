@@ -1,5 +1,5 @@
-sw_volume: 100
-audio_device_state:1:My Pulse Output
+sw_volume: 44
+audio_device_state:1:MPD
 audio_device_state:1:FIFO
 state: stop
 random: 0
@@ -10,41 +10,188 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Black Magick SS/2013 - Panzerwitch/01 - Darklord.mp3
-1:Black Magick SS/2013 - Panzerwitch/02 - Shall Prevail.mp3
-2:Black Magick SS/2013 - Panzerwitch/03 - Panzerwitch.mp3
-3:Black Magick SS/2015 - The Black Abyss/01 - The Black Abyss.mp3
-4:Black Magick SS/2015 - The Black Abyss/02 - Step Into The Night.mp3
-5:Black Magick SS/2015 - The Black Abyss/03 - Crystal Eyes.mp3
-6:Black Magick SS/2015 - The Black Abyss/04 - Hidden In Plain Sight.mp3
-7:Black Magick SS/2015 - The Black Abyss/05 - Black Magick Army.mp3
-8:Black Magick SS/2015 - The Black Abyss/06 - Wisdom Tree.mp3
-9:Black Magick SS/2015 - The Black Abyss/07 - War Of The Sorceror.mp3
-10:Black Magick SS/2015 - The Black Abyss/08 - Dark Lord.mp3
-11:Black Magick SS/2015 - The Black Abyss/09 - Shall Prevail.mp3
-12:Black Magick SS/2015 - The Black Abyss/10 - Panzerwitch.mp3
-13:Black Magick SS/2015 - The Black Abyss/11 - Symbols Of Great Power.mp3
-14:Black Magick SS/2015 - The Black Abyss/12 - The Fire (Burns Forever).mp3
-15:Black Magick SS/2015 - The Black Abyss/13 - In The Circle.mp3
-16:Black Magick SS/2015 - The Black Abyss/14 - Gospel.mp3
-17:Black Magick SS/2015 - The Owls of Winter, Talisman [EP]/01 - The Owls of Winter.mp3
-18:Black Magick SS/2015 - The Owls of Winter, Talisman [EP]/02 - Talisman.mp3
-19:Black Magick SS/2017 - Kaleidoscope Dreams/01 - Kaleidoscope Dreams.mp3
-20:Black Magick SS/2017 - Kaleidoscope Dreams/02 - Crusader.mp3
-21:Black Magick SS/2017 - Kaleidoscope Dreams/03 - Taget.mp3
-22:Black Magick SS/2017 - Kaleidoscope Dreams/04 - The Power.mp3
-23:Black Magick SS/2017 - Kaleidoscope Dreams/05 - Follow You.mp3
-24:Black Magick SS/2017 - Kaleidoscope Dreams/06 - Eclipse.mp3
-25:Black Magick SS/2018 - Spectral Ecstasy/01 - Black Hand.mp3
-26:Black Magick SS/2018 - Spectral Ecstasy/02 - Spectral Ecstasy.mp3
-27:Black Magick SS/2018 - Spectral Ecstasy/03 - My Love.mp3
-28:Black Magick SS/2018 - Spectral Ecstasy/04 - Fallen Tale.mp3
-29:Black Magick SS/2018 - Spectral Ecstasy/05 - The Oath.mp3
-30:Black Magick SS/2018 - Spectral Ecstasy/06 - Hymn Of Pride.mp3
-31:Black Magick SS/2020 - Rainbow Nights/01 - Endless Hallucinations.mp3
-32:Black Magick SS/2020 - Rainbow Nights/02 - Rainbow Nights.mp3
-33:Black Magick SS/2020 - Rainbow Nights/03 - Get Out.mp3
-34:Black Magick SS/2020 - Rainbow Nights/04 - Kali.mp3
-35:Black Magick SS/2020 - Rainbow Nights/05 - Mothers Lullaby.mp3
-36:Black Magick SS/2020 - Rainbow Nights/06 - The Truth.mp3
+0:nxp/mk ultra support group/vol 1/Negative XP - MSG Vol. 1 - 01 Scott Pilgrim vs. the World Ruined a Whole Generation of Women.mp3
+1:nxp/mk ultra support group/vol 1/Negative XP - MSG Vol. 1 - 02 Left On Read.mp3
+2:nxp/mk ultra support group/vol 1/Negative XP - MSG Vol. 1 - 03 Disgusted With Myself.mp3
+3:nxp/mk ultra support group/vol 1/Negative XP - MSG Vol. 1 - 04 MKULTRA Victim.mp3
+4:nxp/mk ultra support group/vol 1/Negative XP - MSG Vol. 1 - 05 A Punk Song.mp3
+5:nxp/mk ultra support group/vol 1/Hard Christ - MSG Vol. 1 - 06 Stop Talking.mp3
+6:nxp/mk ultra support group/vol 1/Hard Christ - MSG Vol. 1 - 07 Degenerate.mp3
+7:nxp/mk ultra support group/vol 1/Hard Christ - MSG Vol. 1 - 08 Human Punching Bag.mp3
+8:nxp/mk ultra support group/vol 1/sodaboy64 - MSG Vol. 1 - 09 you see me too.mp3
+9:nxp/mk ultra support group/vol 1/sodaboy64 - MSG Vol. 1 - 10 my tendies.mp3
+10:nxp/mk ultra support group/vol 1/sodaboy64 - MSG Vol. 1 - 11 straycatz.mp3
+11:nxp/mk ultra support group/vol 1/spree - MSG Vol. 1 - 12 nevermind.mp3
+12:nxp/mk ultra support group/vol 1/spree - MSG Vol. 1 - 13 dirt.mp3
+13:nxp/mk ultra support group/vol 1/spree - MSG Vol. 1 - 14 mud.mp3
+14:nxp/mk ultra support group/vol 1/werewolf hair - MSG Vol. 1 - 15 crackers talking shit.mp3
+15:nxp/mk ultra support group/vol 1/werewolf hair - MSG Vol. 1 - 16 nothing comes to mind.mp3
+16:nxp/mk ultra support group/vol 1/werewolf hair - MSG Vol. 1 - 17 hollow.mp3
+17:nxp/mk ultra support group/vol 1/werewolf hair - MSG Vol. 1 - 18 muffler (don't miss summer).mp3
+18:nxp/mk ultra support group/vol 1/Greens On Toast - MSG Vol. 1 - 19 I Don't Want To Live Or Die.mp3
+19:nxp/mk ultra support group/vol 1/Greens On Toast - MSG Vol. 1 - 20 You Make Me Feel (Kinda Zainy).mp3
+20:nxp/mk ultra support group/vol 1/Greens On Toast - MSG Vol. 1 - 21 Raccoon GF.mp3
+21:nxp/mk ultra support group/vol 1/Greens On Toast - MSG Vol. 1 - 22 10- Off But No One's Buying.mp3
+22:nxp/mk ultra support group/vol 1/willow - MSG Vol. 1 - 23 I'M NOT OKAY -I PROMISE-.mp3
+23:nxp/mk ultra support group/vol 1/willow - MSG Vol. 1 - 24 SCREAMINGONTOPOFA5STORYBUILDING.mp3
+24:nxp/mk ultra support group/vol 1/willow - MSG Vol. 1 - 25 UJUSTWANNAMAKEEVERYONEMISERABLE.mp3
+25:nxp/mk ultra support group/vol 2/Negative XP - MSG Vol. 2 - 01 You Shouldn't Be Allowed to Listen to Music If You Watch the Needle Drop.mp3
+26:nxp/mk ultra support group/vol 2/Negative XP - MSG Vol. 2 - 02 Calendar Girl.mp3
+27:nxp/mk ultra support group/vol 2/Negative XP - MSG Vol. 2 - 03 Computer Shy.mp3
+28:nxp/mk ultra support group/vol 2/Negative XP - MSG Vol. 2 - 04 MKULTRA Support Group.mp3
+29:nxp/mk ultra support group/vol 2/fedze - MSG Vol. 2 - 05 I Should Go Get Wasted.mp3
+30:nxp/mk ultra support group/vol 2/fedze - MSG Vol. 2 - 06 Forget It.mp3
+31:nxp/mk ultra support group/vol 2/fedze - MSG Vol. 2 - 07 Squeaky.mp3
+32:nxp/mk ultra support group/vol 2/fedze - MSG Vol. 2 - 08 Go Flex.mp3
+33:nxp/mk ultra support group/vol 2/spree - MSG Vol. 2 - 09 vomit.mp3
+34:nxp/mk ultra support group/vol 2/spree - MSG Vol. 2 - 10 spit.mp3
+35:nxp/mk ultra support group/vol 2/spree - MSG Vol. 2 - 11 org.mp3
+36:nxp/mk ultra support group/vol 2/spree - MSG Vol. 2 - 12 horse.mp3
+37:nxp/mk ultra support group/vol 2/willow - MSG Vol. 2 - 13 mondays.mp3
+38:nxp/mk ultra support group/vol 2/Hard Christ - MSG Vol. 2 - 14 Emo.mp3
+39:nxp/mk ultra support group/vol 2/Hard Christ - MSG Vol. 2 - 15 Sick of Me.mp3
+40:nxp/mk ultra support group/vol 2/sodaboy64 - MSG Vol. 2 - 16 message for you.mp3
+41:nxp/mk ultra support group/vol 2/sodaboy64 - MSG Vol. 2 - 17 what did i want.mp3
+42:nxp/mk ultra support group/vol 2/sodaboy64 - MSG Vol. 2 - 18 another punk song.mp3
+43:nxp/mk ultra support group/vol 2/Kiki - MSG Vol. 2 - 19 Another Long Life.mp3
+44:nxp/mk ultra support group/vol 2/Kiki - MSG Vol. 2 - 20 Seed.mp3
+45:nxp/mk ultra support group/vol 2/steakfry - MSG Vol. 2 - 21 Deep in Tho(ugh)t.mp3
+46:nxp/mk ultra support group/vol 2/steakfry - MSG Vol. 2 - 22 Quick To Forget.mp3
+47:nxp/mk ultra support group/vol 2/steakfry - MSG Vol. 2 - 23 Mmrs.mp3
+48:nxp/mk ultra support group/vol 2/mothman - MSG Vol. 2 - 24 knife school.mp3
+49:nxp/mk ultra support group/vol 2/mothman - MSG Vol. 2 - 25 all smiles.mp3
+50:nxp/mk ultra support group/vol 3/Negative XP - MSG Vol. 3 - 01 Kurt Cobain Says -I Don't Have a God- in Come As You Are Because the Song is About Selling Your Soul.mp3
+51:nxp/mk ultra support group/vol 3/Negative XP - MSG Vol. 3 - 02 Egirl.mp3
+52:nxp/mk ultra support group/vol 3/Negative XP - MSG Vol. 3 - 03 mkultrasupportgroup.com.mp3
+53:nxp/mk ultra support group/vol 3/hallowed - MSG Vol. 3 - 04 billionaire boys club.mp3
+54:nxp/mk ultra support group/vol 3/hallowed - MSG Vol. 3 - 05 bill gates.mp3
+55:nxp/mk ultra support group/vol 3/hallowed - MSG Vol. 3 - 06 corona.mp3
+56:nxp/mk ultra support group/vol 3/hallowed - MSG Vol. 3 - 07 homeee.mp3
+57:nxp/mk ultra support group/vol 3/hallowed - MSG Vol. 3 - 08 johnny will you.mp3
+58:nxp/mk ultra support group/vol 3/birdbath - MSG Vol. 3 - 09 endless bummer.mp3
+59:nxp/mk ultra support group/vol 3/birdbath - MSG Vol. 3 - 10 oneirataxia.mp3
+60:nxp/mk ultra support group/vol 3/birdbath - MSG Vol. 3 - 11 manifestations.mp3
+61:nxp/mk ultra support group/vol 3/Pacific Purgatory - MSG Vol. 3 - 12 Birds.mp3
+62:nxp/mk ultra support group/vol 3/Pacific Purgatory - MSG Vol. 3 - 13 Kill Me!.mp3
+63:nxp/mk ultra support group/vol 3/Pacific Purgatory - MSG Vol. 3 - 14 Play With Guns.mp3
+64:nxp/mk ultra support group/vol 3/Pacific Purgatory - MSG Vol. 3 - 15 Year of the Horse.mp3
+65:nxp/mk ultra support group/vol 3/fedze - MSG Vol. 3 - 16 NEED.mp3
+66:nxp/mk ultra support group/vol 3/fedze - MSG Vol. 3 - 17 E-Girl-Friend.mp3
+67:nxp/mk ultra support group/vol 3/fedze - MSG Vol. 3 - 18 Superstar.mp3
+68:nxp/mk ultra support group/vol 3/XO_willow☆ - MSG Vol. 3 - 19 christtime.mp3
+69:nxp/mk ultra support group/vol 3/XO_willow☆ - MSG Vol. 3 - 20 drugapproved.mp3
+70:nxp/mk ultra support group/vol 3/steakfry - MSG Vol. 3 - 21 Mornin' Blues.mp3
+71:nxp/mk ultra support group/vol 3/steakfry - MSG Vol. 3 - 22 Rootless.mp3
+72:nxp/mk ultra support group/vol 3/steakfry - MSG Vol. 3 - 23 Holdin' You.mp3
+73:nxp/mk ultra support group/vol 3/werewolf hair - MSG Vol. 3 - 24 tumble.mp3
+74:nxp/mk ultra support group/vol 3/werewolf hair - MSG Vol. 3 - 25 little waste.mp3
+75:nxp/mk ultra support group/vol 3/werewolf hair - MSG Vol. 3 - 26 courier.mp3
+76:nxp/mk ultra support group/vol 3/werewolf hair - MSG Vol. 3 - 27 southern star.mp3
+77:nxp/mk ultra support group/vol 3/sodaboy64 - MSG Vol. 3 - 28 don't want summer.mp3
+78:nxp/mk ultra support group/vol 3/sodaboy64 - MSG Vol. 3 - 29 weed good.mp3
+79:nxp/mk ultra support group/vol 3/Hard Christ - MSG Vol. 3 - 30 Fool.mp3
+80:nxp/mk ultra support group/vol 3/belowground - MSG Vol. 3 - 31 i want 2 eml.mp3
+81:nxp/mk ultra support group/vol 3/belowground - MSG Vol. 3 - 32 it's your fucking fault that i'm dead on the couch.mp3
+82:nxp/mk ultra support group/vol 3/belowground - MSG Vol. 3 - 33 let's start over again.mp3
+83:nxp/mk ultra support group/vol 3/belowground - MSG Vol. 3 - 34 loveXsong.mp3
+84:nxp/mk ultra support group/vol 3/kiki - MSG Vol. 3 - 35 Laughing All Day.mp3
+85:nxp/mk ultra support group/vol 3/Greens On Toast - MSG Vol. 3 - 36 Vietnam #2.mp3
+86:nxp/mk ultra support group/vol 3/Greens On Toast - MSG Vol. 3 - 37 Love Story.mp3
+87:nxp/mk ultra support group/vol 3/Greens On Toast - MSG Vol. 3 - 38 Noah's Ark.mp3
+88:nxp/mk ultra support group/vol 3/With love, Mom - MSG Vol. 3 - 39 Kai.mp3
+89:nxp/mk ultra support group/vol 3/With love, Mom - MSG Vol. 3 - 40 shut up and kiss me!.mp3
+90:nxp/mk ultra support group/vol 3/With love, Mom - MSG Vol. 3 - 41 I don't live for you (anymore).mp3
+91:nxp/mk ultra support group/vol 3/With love, Mom - MSG Vol. 3 - 42 short and sweet (just how she likes it).mp3
+92:nxp/mk ultra support group/vol 3/With love, Mom - MSG Vol. 3 - 43 NO SAFE SPACE.mp3
+93:nxp/mk ultra support group/vol 3/Ascend Me - MSG Vol. 3 - 44 New Cobain.mp3
+94:nxp/Negative XP - Gamer/Negative XP - Gamer - 01 Life is An RPG and I Fucked Up My Build.mp3
+95:nxp/Negative XP - Gamer/Negative XP - Gamer - 02 Bug.mp3
+96:nxp/Negative XP - Gamer/Negative XP - Gamer - 03 Shutdown.mp3
+97:nxp/Negative XP - Gamer/Negative XP - Gamer - 04 I Can't Sleep.mp3
+98:nxp/Negative XP - Gamer/Negative XP - Gamer - 05 FPS.mp3
+99:nxp/Negative XP - Gamer/Negative XP - Gamer - 06 Girls Are Dumb.mp3
+100:nxp/Negative XP - Gamer/Negative XP - Gamer - 07 Die Alone.mp3
+101:nxp/Negative XP - Gamer/Negative XP - Gamer - 08 Level 100.mp3
+102:nxp/Negative XP - Gamer/Negative XP - Gamer - 09 Kyle.mp3
+103:nxp/Negative XP - Gamer/Negative XP - Gamer - 10 Turn It Off.mp3
+104:nxp/Negative XP - Gamer/Negative XP - Gamer - 11 Low Battery.mp3
+105:nxp/Negative XP - Goodbye/Negative XP - Goodbye - 01 Goodbye.mp3
+106:nxp/Negative XP - Goodbye/Negative XP - Goodbye - 02 Pillow.mp3
+107:nxp/Negative XP - Goodbye/Negative XP - Goodbye - 03 Energy Drink.mp3
+108:nxp/Negative XP - Goodbye/Negative XP - Goodbye - 04 Bad Habits.mp3
+109:nxp/Negative XP - Goodbye/Negative XP - Goodbye - 05 Hide My Face.mp3
+110:nxp/Negative XP - Goodbye/Negative XP - Goodbye - 06 Nowhere, USA.mp3
+111:nxp/Negative XP - Goodbye/Negative XP - Goodbye - 07 Locals Only!.mp3
+112:nxp/Negative XP - Goodbye/Negative XP - Goodbye - 08 Trust Issues.mp3
+113:nxp/Negative XP - Goodbye/Negative XP - Goodbye - 09 In My Dreams.mp3
+114:nxp/Negative XP - Goodbye/Negative XP - Goodbye - 10 Burnout.mp3
+115:nxp/Negative XP - Goodbye/Negative XP - Goodbye - 11 Steel Chair Headshot.mp3
+116:nxp/Negative XP - Sophomore/Negative XP - Sophomore - 01 True.mp3
+117:nxp/Negative XP - Sophomore/Negative XP - Sophomore - 02 Go Ahead and Laugh (Behind My Back).mp3
+118:nxp/Negative XP - Sophomore/Negative XP - Sophomore - 03 I Hate Myself and Everybody Else.mp3
+119:nxp/Negative XP - Sophomore/Negative XP - Sophomore - 04 Thanks for Nothing.mp3
+120:nxp/Negative XP - Sophomore/Negative XP - Sophomore - 05 Wasting My Time.mp3
+121:nxp/Negative XP - Sophomore/Negative XP - Sophomore - 06 Saturday Morning Cartoons.mp3
+122:nxp/Negative XP - Sophomore/Negative XP - Sophomore - 07 Student Loans.mp3
+123:nxp/Negative XP - Sophomore/Negative XP - Sophomore - 08 Daydream.mp3
+124:nxp/Negative XP - Sophomore/Negative XP - Sophomore - 09 You Put My Head in a Noose.mp3
+125:nxp/Negative XP - Sophomore/Negative XP - Sophomore - 10 The Angels in Heaven Sigh My Name.mp3
+126:nxp/Negative XP - Sophomore/Negative XP - Sophomore - 11 Tired of Living and Scared of Dying.mp3
+127:nxp/Negative XP - Untitled/Negative XP - Untitled - 01 Purity.mp3
+128:nxp/Negative XP - Untitled/Negative XP - Untitled - 02 Sticks & Stones.mp3
+129:nxp/Negative XP - Untitled/Negative XP - Untitled - 03 Honor Roll.mp3
+130:nxp/Negative XP - Untitled/Negative XP - Untitled - 04 Popular.mp3
+131:nxp/Negative XP - Untitled/Negative XP - Untitled - 05 Dehumanize.mp3
+132:nxp/Negative XP - Untitled/Negative XP - Untitled - 06 05-25-18.mp3
+133:nxp/Negative XP - Untitled/Negative XP - Untitled - 07 Walmart.mp3
+134:nxp/Negative XP - Untitled/Negative XP - Untitled - 08 Run Your Mouth.mp3
+135:nxp/Negative XP - Untitled/Negative XP - Untitled - 09 06-07-18.mp3
+136:nxp/Negative XP - Untitled/Negative XP - Untitled - 10 Ah.mp3
+137:nxp/Negative XP - Untitled/Negative XP - Untitled - 11 Rainy Day.mp3
+138:nxp/Negative XP - Untitled/Negative XP - Untitled - 12 08-22-18.mp3
+139:nxp/Negative XP - Untitled/Negative XP - Untitled - 13 S.O.S..mp3
+140:nxp/Negative XP - Untitled/Negative XP - Untitled - 14 Lucky.mp3
+141:nxp/Negative XP - Untitled/Negative XP - Untitled - 15 Expired Milk.mp3
+142:nxp/Negative XP - Untitled/Negative XP - Untitled - 16 Hentai.mp3
+143:nxp/Negative XP - Untitled/Negative XP - Untitled - 17 09-30-18.mp3
+144:nxp/Negative XP - Untitled/Negative XP - Untitled - 18 Worse Than Boring.mp3
+145:nxp/Negative XP - Untitled/Negative XP - Untitled - 19 Cry For Help.mp3
+146:nxp/Negative XP - Untitled/Negative XP - Untitled - 20 Goodbye.mp3
+147:nxp/Negative XP - Untitled/Negative XP - Untitled - 21 Someone Like You.mp3
+148:nxp/Negative XP - Untitled/Negative XP - Untitled - 22 11-11-18.mp3
+149:nxp/Negative XP - Untitled/Negative XP - Untitled - 23 Mixed Personalities.mp3
+150:nxp/Negative XP - Untitled/Negative XP - Untitled - 24 Security.mp3
+151:nxp/Negative XP - Untitled/Negative XP - Untitled - 25 Do You Wanna Dance-.mp3
+152:nxp/Negative XP - Untitled/Negative XP - Untitled - 26 Forever.mp3
+153:nxp/Negative XP - Untitled/Negative XP - Untitled - 27 Ash the Cat.mp3
+154:nxp/Negative XP - Untitled/Negative XP - Untitled - 28 Margerine.mp3
+155:nxp/Negative XP - Untitled/Negative XP - Untitled - 29 Tired of Living and Scared of Dying.mp3
+156:nxp/Negative XP - Untitled/Negative XP - Untitled - 30 Old Town Road.mp3
+157:nxp/Negative XP - Untitled/Negative XP - Untitled - 31 Betrayed.mp3
+158:nxp/Negative XP - Untitled/Negative XP - Untitled - 32 Lucid Dreams.mp3
+159:nxp/Negative XP - Untitled/Negative XP - Untitled - 33 Old Town Road Remix (feat. Werewolf Hair).mp3
+160:nxp/Negative XP - Untitled/Negative XP - Untitled - 34 Your Heart Has Changed Its Mind.mp3
+161:nxp/Negative XP - Untitled/Negative XP - Untitled - 35 Walking in the Rain.mp3
+162:nxp/Negative XP - Untitled/Negative XP - Untitled - 36 Life is But a Dream.mp3
+163:nxp/Negative XP - Untitled/Negative XP - Untitled - 37 Why Do Fools Fall in Love-.mp3
+164:nxp/Negative XP - Untitled/Negative XP - Untitled - 38 Swajjur Kicks.mp3
+165:nxp/Negative XP - Untitled/Negative XP - Untitled - 39 Murder on My Mind.mp3
+166:nxp/Negative XP - Untitled/Negative XP - Untitled - 40 Thotiana.mp3
+167:nxp/Negative XP - Untitled/Negative XP - Untitled - 41 04-27-19.mp3
+168:nxp/Negative XP - Untitled/Negative XP - Untitled - 42 04-28-19.mp3
+169:nxp/Negative XP - Untitled/Negative XP - Untitled - 43 05-10-19.mp3
+170:nxp/Negative XP - Untitled/Negative XP - Untitled - 44 Gonna Hustle You.mp3
+171:nxp/Negative XP - Varsity/Negative XP - Varsity - 01 Play Through the Pain.mp3
+172:nxp/Negative XP - Varsity/Negative XP - Varsity - 02 All-American.mp3
+173:nxp/Negative XP - Varsity/Negative XP - Varsity - 03 Varsity.mp3
+174:nxp/Negative XP - Varsity/Negative XP - Varsity - 04 The Class Clown.mp3
+175:nxp/Negative XP - Varsity/Negative XP - Varsity - 05 F Minus.mp3
+176:nxp/Negative XP - Varsity/Negative XP - Varsity - 06 Hugs Not Drugs.mp3
+177:nxp/Negative XP - Varsity/Negative XP - Varsity - 07 Girlfriend.mp3
+178:nxp/Negative XP - Varsity/Negative XP - Varsity - 08 Pep Rally.mp3
+179:nxp/Negative XP - Varsity/Negative XP - Varsity - 09 Sports.mp3
+180:nxp/Negative XP - Varsity/Negative XP - Varsity - 10 Champion.mp3
+181:nxp/Negative XP - Varsity/Negative XP - Varsity - 11 After the Game.mp3
+182:nxp/school shooter/NEGATIVE XP  - 1965.mp3
+183:nxp/school shooter/Negative XP - Cops Beating Down On Hippie Scum At The 1968 Democratic National Convention.mp3
 playlist_end

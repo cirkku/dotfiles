@@ -1,0 +1,12 @@
+11
+t0-11-uni.pcf.gz -uw-ttyp0-medium-r-normal--11-100-75-75-c-60-iso10646-1
+t0-11b-uni.pcf.gz -uw-ttyp0-bold-r-normal--11-100-75-75-c-60-iso10646-1
+t0-12-uni.pcf.gz -uw-ttyp0-medium-r-normal--12-110-75-75-c-60-iso10646-1
+t0-12b-uni.pcf.gz -uw-ttyp0-bold-r-normal--12-110-75-75-c-60-iso10646-1
+t0-13-uni.pcf.gz -uw-ttyp0-medium-r-normal--13-120-75-75-c-70-iso10646-1
+t0-13b-uni.pcf.gz -uw-ttyp0-bold-r-normal--13-120-75-75-c-70-iso10646-1
+t0-14-uni.pcf.gz -uw-ttyp0-medium-r-normal--14-130-75-75-c-70-iso10646-1
+t0-14b-uni.pcf.gz -uw-ttyp0-bold-r-normal--14-130-75-75-c-70-iso10646-1
+t0-15-uni.pcf.gz -uw-ttyp0-medium-r-normal--15-140-75-75-c-80-iso10646-1
+t0-15b-uni.pcf.gz -uw-ttyp0-bold-r-normal--15-140-75-75-c-80-iso10646-1
+t0-15i-uni.pcf.gz -uw-ttyp0-medium-i-normal--15-140-75-75-c-80-iso10646-1
